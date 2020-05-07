@@ -8,9 +8,13 @@ Ich wusste das man eine Zeile mit dem Befehl ```//Beliebiger Text``` auskommenti
 ## Java Variables/Data Types
 Variablen an sich kannte ich schon aus anderen Programmiersprachen, da die so gut wie immer benötigt werden um eine Variable Zahl,Buchstaben oder auch einen Satz auszugeben.Einige davon kannte ich von meiner alten Schule aus dem Programmierunterricht wo wir mit VB6 programmiert haben. 
 * Bekannt war mir deshalb:
-  * String - Um einen Text auszugeben
-  * int - Was ganze Zahlen umfasst(keine Kommazahlen)(-2147483648 bis 2147483647)
-  * float - Welche Kommazahlen darstellen
-  * long - Welche sehr große Zahlen darstellen lässt(-9223372036854775808 bis 9223372036854775807)
-  * double - Welche Kommazahlen darstellen(größere Zahlen)
- 
+  * ```String``` - Um einen Text auszugeben
+  * ```int``` - Was ganze Zahlen umfasst(-2147483648 bis 2147483647)
+  * ```long``` - Welche sehr große Zahlen darstellen lässt(-9223372036854775808 bis 9223372036854775807)
+  * ```float``` - Welche Kommazahlen darstellen
+  * ```double``` - Welche Kommazahlen darstellen(größere Zahlen)
+* Diese kannte ich nicht
+  * ```byte``` - Für ganz kleine Zahlen(-128 bis 127)
+  * ```short``` - Für kleine Zahlen(-32,768 bis 32,767)
+  * ```boolean``` - Für **true** or **false** Abfragen
+  * ```char``` - Für Buchstaben oder Symbole
