@@ -18,3 +18,16 @@ Variablen an sich kannte ich schon aus anderen Programmiersprachen, da die so gu
   * ```short``` - Für kleine Zahlen(-32,768 bis 32,767)
   * ```boolean``` - Für **true** or **false** Abfragen
   * ```char``` - Für Buchstaben oder Symbole
+## Java Type Casting
+Java Type Casting ist eine Methode um eine bestimmte Variable in eine anderen Variable zu ändern. Zum Beispiel eine Zahl wie Int(5) in Double(5,0) umzuwandeln. Für diese Funktion gibt es 2 Varianten.
+* **Widening Casting** geschieht automatisch. Dies konvertiert eine kleine Variable zu einer größeren.
+```byte``` -> ```short``` -> ```char``` -> ```int``` -> ```long``` -> ```float``` -> ```double```
+Beipsiel: ```public class MyClass {
+  public static void main(String[] args) {
+    int myInt = 9;
+    double myDouble = myInt; // Automatic casting: int to double
+
+    System.out.println(myInt);      // Outputs 9
+    System.out.println(myDouble);   // Outputs 9.0
+  }
+}```
