@@ -20,7 +20,10 @@ Variablen an sich kannte ich schon aus anderen Programmiersprachen, da die so gu
   * ```char``` - Für Buchstaben oder Symbole
 ## Java Type Casting
 Java Type Casting ist eine Methode um eine bestimmte Variable in eine anderen Variable zu ändern. Zum Beispiel eine Zahl wie Int(5) in Double(5,0) umzuwandeln. Für diese Funktion gibt es 2 Varianten.
-* **Widening Casting** geschieht automatisch. Dies konvertiert eine kleine Variable zu einer größeren. \n
+* **Widening Casting** geschieht automatisch. Dies konvertiert eine kleine Variable zu einer größeren.
+
+
+&nbsp;
 ```byte``` -> ```short``` -> ```char``` -> ```int``` -> ```long``` -> ```float``` -> ```double```
 Beipsiel: ```public class MyClass {
   public static void main(String[] args) {
