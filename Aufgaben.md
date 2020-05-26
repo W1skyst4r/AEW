@@ -28,7 +28,8 @@ Java Type Casting ist eine Methode um eine bestimmte Variable in eine anderen Va
 
 
 &nbsp;
-Beipsiel:```public class MyClass {
+Beipsiel: 
+```public class MyClass {
   public static void main(String[] args) {
     int myInt = 9;
     double myDouble = myInt; // Automatic casting: int to double
