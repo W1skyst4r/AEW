@@ -30,11 +30,31 @@ Java Type Casting ist eine Methode um eine bestimmte Variable in eine anderen Va
 &nbsp;
 Beipsiel: 
 ```public class MyClass {
-  public static void main(String[] args) {
+ public static void main(String[] args) {
     int myInt = 9;
     double myDouble = myInt; // Automatic casting: int to double
 
     System.out.println(myInt);      // Outputs 9
     System.out.println(myDouble);   // Outputs 9.0
   }
-}```
+}
+```
+* **Narrowing Casting** muss manuell gemacht werden indem man die "kleinere" Variable in Klammern vor dem Wert platziert.
+
+
+&nbsp;
+```double``` -> ```float``` -> ```long``` -> ```int``` -> ```char``` -> ```short``` -> ```byte```
+
+
+&nbsp;
+Beispiel:
+```public class MyClass {
+  public static void main(String[] args) {
+    double myDouble = 9.78;
+    int myInt = (int) myDouble; // Manual casting: double to int
+
+    System.out.println(myDouble);   // Outputs 9.78
+    System.out.println(myInt);      // Outputs 9
+  }
+}
+``` 
